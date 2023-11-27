@@ -1,6 +1,6 @@
 mod kyu8;
-use crate::kyu8::string_to_number::string_to_number;
+use crate::kyu8::number_to_string::number_to_string;
 
 fn main() {
-    println!("{}", string_to_number("123"));
+    println!("{}", number_to_string(123));
 }
