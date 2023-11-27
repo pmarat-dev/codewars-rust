@@ -2,9 +2,11 @@
 // Convert a String to a Number!
 
 #[allow(dead_code)]
-pub fn string_to_number(s: &str) -> i32 {
+fn string_to_number(s: &str) -> i32 {
     return s.parse().unwrap();
 }
 
-// test:
-// println!("{}", string_to_number("123"));
+#[allow(dead_code)]
+pub fn string_to_number_test() {
+    println!("{}", string_to_number("123"));
+}
