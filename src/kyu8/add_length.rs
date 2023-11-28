@@ -1,5 +1,5 @@
-// https://www.codewars.com/kata/559d2284b5bb6799e9000047
 // Add Length
+// https://www.codewars.com/kata/559d2284b5bb6799e9000047
 
 #[allow(dead_code)]
 fn add_length(str: &str) -> Vec<String> {
