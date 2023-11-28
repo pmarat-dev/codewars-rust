@@ -3,12 +3,12 @@
 
 #[allow(dead_code)]
 fn flip(dir: char, cubes: &[u32]) -> Vec<u32> {
-    let mut cube_vec: Vec<u32> = cubes.to_vec();
-    cube_vec.sort();
+    let mut vector: Vec<u32> = cubes.to_vec();
+    vector.sort();
     if dir == 'L' {
-        cube_vec.reverse();
+        vector.reverse();
     }
-    return cube_vec;
+    return vector;
 }
 
 #[allow(dead_code)]
