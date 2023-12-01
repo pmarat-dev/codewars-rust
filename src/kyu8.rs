@@ -7,3 +7,4 @@ pub mod even_or_odd;
 pub mod grasshopper;
 pub mod digitize;
 pub mod playing_banjo;
+pub mod double_integer;
