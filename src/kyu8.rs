@@ -10,3 +10,4 @@ pub mod playing_banjo;
 pub mod double_integer;
 pub mod dna_to_rna;
 pub mod double_char;
+pub mod find_smallest_int;
