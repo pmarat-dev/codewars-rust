@@ -12,3 +12,4 @@ pub mod dna_to_rna;
 pub mod double_char;
 pub mod find_smallest_int;
 pub mod goals;
+pub mod remove_first_and_last_char;
