@@ -1,4 +1,4 @@
-
+#[allow(dead_code)]
 fn reverse_words(str: &str) -> String {
     str.to_string().split(" ")
         .map(|word| word.chars().rev().collect::<String>())
